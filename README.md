@@ -31,7 +31,7 @@ A modular and customizable vulnerability discovery tool that fetches historical 
 
 <h1 align="center">
 
-  Features
+  <kbd> Features </kbd>
 
 </h1>
 

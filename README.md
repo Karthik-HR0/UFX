@@ -29,8 +29,22 @@ A modular and customizable vulnerability discovery tool that fetches historical 
 <br>
 <br>
 
+`` #Features ``
+<kbd>
+Historical URL Scanning: Fetch URLs from the Wayback Machine.
+
+Customizable Pattern Matching: Scan for specific patterns like XSS, SQLi, LFI, etc.
+
+Command Line Interface: Easy-to-use CLI to scan domains with a variety of options.
+
+Extensible: Easily add new patterns to scan for by adding JSON configuration files or by using the -q flag for pattern selection.
+
+Modular Pattern Support: Supports multiple pre-configured vulnerability patterns (XSS, SQLi, etc.) stored in a modular patterns directory.
+
+Output to File: Save results to a file for later analysis.
 
 
+</kbd>
 <br>
 <br>
 

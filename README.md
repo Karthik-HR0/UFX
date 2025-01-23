@@ -3,7 +3,7 @@
 <h3>
   <b>
 
-  🪶 <kbd>[**UFX**](https://github.com/Karthik-HR0/UFX)</kbd>
+  🛸 <kbd>[**UFX**](https://github.com/Karthik-HR0/UFX)</kbd>
 
   </b>
 </h3>
@@ -58,9 +58,13 @@ pip install -r requirements.txt
 
 <br>
 <br>
+<details>
+<summary> <h6 align="center">
+  Inbuilt patterns
+</h6> </summary>
 
 <h6 align="center">
-  Inbuilt patterns
+  AVAILABLE INBUILT PATTERNS 
 </h6>
 
 <pre>
@@ -286,6 +290,8 @@ xpath
 xss
 
 xxe
+
+    </details>
     
   </i>
 </pre>
@@ -318,13 +324,49 @@ python3 ufx.py -d domain.com -q pattern
 <kbd> FOR HELP </kbd>
 </div>
 
+
 <br>
 
 ```bash
 python3 ufx.py -h
 
 ```
+<div align="center">
+<kbd> OUTPUT OF XSS PATTERN</kbd>
 
+``` ufx -d example.com -q xss
+
+[*] Scanning domain: example.com
+[*] Using pattern: XSS
+[+] Found 12,345 historical URLs.
+
+https://example.com/search?q=<script>alert('xss')</script>
+https://example.com/page.php?lang=javascript:alert(1)
+https://example.com/login?redirect=javascript:alert(1)
+https://example.com/query?keyword=<script>alert('xss')</script>
+
+
+[+] Total XSS-vulnerable URLs found: 4
+```
+
+<div align="center">
+<kbd> OUTPUT OF LFI PATTERN</kbd>
+
+```
+ufx -d example.com -q lfi
+
+[*] Scanning domain: example.com
+[*] Using pattern: LFI
+[+] Found 10,000 historical URLs.
+
+https://example.com/view.php?file=../../../../etc/passwd
+https://example.com/download.php?path=/var/log/apache2/access.log
+https://example.com/index.php?dir=../../../../
+
+[+] Total LFI-vulnerable URLs found: 3
+```
+
+</div>
 
 <br>
 

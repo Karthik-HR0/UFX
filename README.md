@@ -29,22 +29,22 @@ A modular and customizable vulnerability discovery tool that fetches historical 
 <br>
 <br>
 
-`` #Features ``
-<kbd>
-Historical URL Scanning: Fetch URLs from the Wayback Machine.
+<h1 align="center">
 
-Customizable Pattern Matching: Scan for specific patterns like XSS, SQLi, LFI, etc.
+  Features
 
-Command Line Interface: Easy-to-use CLI to scan domains with a variety of options.
+</h1>
 
-Extensible: Easily add new patterns to scan for by adding JSON configuration files or by using the -q flag for pattern selection.
+<div align="center">
 
-Modular Pattern Support: Supports multiple pre-configured vulnerability patterns (XSS, SQLi, etc.) stored in a modular patterns directory.
+| Category              | Core Capabilities                                  | Advanced Functionality                              | Intelligent Automation                               |
+|-----------------------|----------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
+| **Historical URL Fetching** | • _`Wayback Machine Integration`_ <br>• _`Fetch up to 50,000 URLs`_ | • _`Duplicate URL Filtering`_ <br>• _`Domain-wide Coverage`_ | • _`Error Handling for Network Issues`_ <br>• _`Efficient URL Parsing`_ |
+| **Pattern Matching**   | • _`Predefined Patterns for XSS, SQLi, LFI`_ <br>• _`Custom Pattern Support`_ | • _`Dynamic Query Analysis`_ <br>• _`Heuristic-based Matching`_ | • _`Automatic Parameter Detection`_ <br>• _`Multi-pattern Scanning`_ |
+| **Ease of Use**        | • _`Command-Line Interface (CLI)`_ <br>• _`Single-command Execution`_ | • _`Optional Output File Generation`_ <br>• _`Quick Pattern Listing`_ | • _`Simplified Workflow`_ <br>• _`Auto Pattern Detection Based on -q Input`_ |
+| **Extensibility**      | • _`Modular Design with Pattern Management`_ <br>• _`Python Package Installation`_ | • _`Easily Extendable for New Vulnerabilities`_ <br>• _`Centralized Pattern Module`_ | • _`Continuous Tool Updates`_ <br>• _`Custom Integration for Unique Patterns`_ |
 
-Output to File: Save results to a file for later analysis.
-
-
-</kbd>
+</div>
 <br>
 <br>
 

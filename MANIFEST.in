@@ -1,1 +1,1 @@
-include ufx/patterns/*.json
+include patterns/*.json

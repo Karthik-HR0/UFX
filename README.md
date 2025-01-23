@@ -310,7 +310,7 @@ python3 ufx.py -d testphp.vulnweb.com -q xss
 ```
 
 <div align="center">
-<kbd>FOR SHOWING AVAILABLE PATTERNS</kbd>
+<kbd>FOR SHOWING AVAILABLE PATTERNS :↓</kbd>
 </div>
 
 <br>
@@ -320,7 +320,7 @@ python3 ufx.py -d domain.com -q pattern
 ```
 
 <div align="center">
-<kbd> FOR HELP </kbd>
+<kbd> FOR HELP :↓ </kbd>
 </div>
 
 

@@ -60,9 +60,8 @@ pip install -r requirements.txt
 <br>
 <details>
 <summary> <h6 align="center">
-  Inbuilt patterns
+  Inbuilt patterns :↓
 </h6> </summary>
-
 <h6 align="center">
   AVAILABLE INBUILT PATTERNS 
 </h6>

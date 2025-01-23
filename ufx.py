@@ -5,6 +5,7 @@ import argparse
 import sys
 from urllib.parse import urlparse
 from module.patterns import PatternLoader
+from module.logo import Logo
 
 
 class UFX:
@@ -93,6 +94,9 @@ def main():
     )
     
     args = parser.parse_args()
+    
+    # Display the logo/banner
+    Logo.display()
     
     pattern_loader = PatternLoader()
 

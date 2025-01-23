@@ -339,10 +339,10 @@ python3 ufx.py -h
 [*] Using pattern: XSS
 [+] Found 12,345 historical URLs.
 
-https://example.com/search?q=<script>alert('xss')</script>
-https://example.com/page.php?lang=javascript:alert(1)
-https://example.com/login?redirect=javascript:alert(1)
-https://example.com/query?keyword=<script>alert('xss')</script>
+https://example.com/search?q=sub
+https://example.com/page.php?lang=en
+https://example.com/login?redirect=101
+https://example.com/query?keyword=words
 
 
 

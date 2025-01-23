@@ -358,9 +358,10 @@ ufx -d example.com -q lfi
 [*] Using pattern: LFI
 [+] Found 10,000 historical URLs.
 
-https://example.com/view.php?file=../../../../etc/passwd
-https://example.com/download.php?path=/var/log/apache2/access.log
-https://example.com/index.php?dir=../../../../
+https://example.com/index.php?page=
+https://example.com/view.php?file=../etc/passwd
+https://example.com/download.php?path=?
+https://example.com/index.php?dir=
 
 
 ```

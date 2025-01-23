@@ -345,7 +345,7 @@ https://example.com/login?redirect=javascript:alert(1)
 https://example.com/query?keyword=<script>alert('xss')</script>
 
 
-[+] Total XSS-vulnerable URLs found: 4
+
 ```
 
 <div align="center">
@@ -362,7 +362,7 @@ https://example.com/view.php?file=../../../../etc/passwd
 https://example.com/download.php?path=/var/log/apache2/access.log
 https://example.com/index.php?dir=../../../../
 
-[+] Total LFI-vulnerable URLs found: 3
+
 ```
 
 </div>

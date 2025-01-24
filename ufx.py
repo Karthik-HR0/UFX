@@ -34,7 +34,7 @@ class UFX:
     def get_alienvault_urls(self):
         """Fetch URLs using AlienVault OTX API."""
         url = f"https://otx.alienvault.com/api/v1/indicators/hostname/{self.domain}/url_list"
-        params = {"limit": 500, "page": 1}
+        params = {"limit": 50000, "page": 1}
         try:
             response = requests.get(url, params=params, timeout=30)
             response.raise_for_status()

@@ -333,7 +333,8 @@ python3 ufx.py -h
 <div align="center">
 <kbd> OUTPUT OF XSS PATTERN</kbd>
 
-``` ufx -d example.com -q xss
+``` 
+ufx -d example.com -q xss
 
 [*] Scanning domain: example.com
 [*] Using pattern: XSS

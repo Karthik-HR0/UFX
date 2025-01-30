@@ -5,6 +5,7 @@
 
   🛸 <kbd>[**UFX**](https://github.com/Karthik-HR0/UFX)</kbd>
 
+<kbd> V 2.0 comming soon</kbd>
   </b>
 </h3>
 
